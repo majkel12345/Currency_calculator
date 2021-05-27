@@ -10,20 +10,19 @@
   <body>
     <div class="container">
       <h1>Currency Calculator</h1>
-      <form type="text">
+      <div class="form">
         <input
           class="input"
           type="number"
-          min="0.01"
-          step="0.01"
           name="value"
           value="1"
+          placeholder="type number"
         />
         <select class="select__from"></select>
         <label>convert to</label>
         <select class="select__convert"></select>
-        <span class="result"></span>
-      </form>
+        <p class="result"></p>
+      </div>
     </div>
 
     <script src="script.js"></script>
